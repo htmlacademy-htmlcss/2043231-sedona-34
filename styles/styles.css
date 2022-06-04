@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2"); 
     font-display: swap;
 }
 
@@ -152,14 +152,14 @@ body {
     font-weight: 700;
     text-align: center;
     color: #ffffff;
-    background-color: #000000;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    background-color: #000000;   
     text-transform: uppercase;
 }
 
 .newsletter{ 
     background-image: url("../images/jpg/background-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;    
 }
 
 .page-footer-title-description {
